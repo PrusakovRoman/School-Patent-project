@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="y-hidden">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +17,7 @@
 </head>
 <body>
 
-  <!-- <div class="loader">
+  <div class="loader">
 
     <?xml version="1.0" encoding="utf-8"?>
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin: auto; background: rgba(0, 0, 0, 0); display: block; shape-rendering: auto;" width="100px" height="100px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
@@ -80,7 +80,7 @@
     </g>
     </svg>
 
-  </div> -->
+  </div>
 
   <!-- <div class="loader">
     <div class="loader loader--style3" title="2">
@@ -208,11 +208,12 @@
   </section>
 
   <script>
-    // window.addEventListener('DOMContentLoaded', () => {
-    //   setTimeout(() => {
-    //     document.querySelector('.loader').remove();
-    //   }, 3000);
-    // })
+     window.addEventListener('DOMContentLoaded', () => {
+       setTimeout(() => {
+         document.querySelector('.loader').remove();
+         document.documentElement.classList.remove('y-hidden');
+       }, 2000);
+     })
   </script>
 
 </body>

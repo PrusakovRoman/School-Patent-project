@@ -10,6 +10,9 @@ body, html {
   width: 100%;
   overflow-x: hidden;
 }
+.y-hidden {
+  overflow-y: hidden;
+}
 ::-webkit-scrollbar {
   width: 9px;
   background-color: rgba(0,0,0,0.4);
@@ -18,7 +21,7 @@ body, html {
   background-color: rgba(255,255,255,.7);
   border-radius: 5px;
 }
-/* 
+
 svg path,
 svg rect{
   fill: #0073ff;
@@ -35,7 +38,7 @@ svg rect{
   top: 0;
   left: 0;
   z-index: 999;
-} */
+}
 
 
 
@@ -375,7 +378,7 @@ section {
     /* background-image: url(img/ФОНЫ/576/Фон\ 8\ 579.svg); */
   }
   body .conclusion--sec9 {
-    background-image: url(img/ФОНЫ/576/Фон\ 9\ 579.svg);
+    background-image: url(img/ФОНЫ/576/Фон\ 9\ 576.svg);
   }
   .paper,
   .introduction {
