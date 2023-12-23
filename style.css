@@ -70,10 +70,12 @@ section {
   background-image: url(img/ФОНЫ/Фон\ 4.svg);
 }
 .tissues--sec5 {
-  background-image: url(img/ФОНЫ/Фон\ 5.svg);
+  /* background-image: url(img/ФОНЫ/Фон\ 5.svg); */
+  background-image: url(img/ФОНЫ/фон\ боты.svg);
 }
 .mechanics--sec6 {
-  background-image: url(img/ФОНЫ/Фон\ 6.svg);
+  /* background-image: url(img/ФОНЫ/Фон\ 6.svg); */
+  background-image: url(img/ФОНЫ/фон\ боты.svg);
 }
 .plastic--sec7 {
   background-image: url(img/ФОНЫ/Фон\ 7.svg);
@@ -381,10 +383,10 @@ section {
     background-image: url(img/ФОНЫ/576/Фон\ 4\ 579.svg);
   }
   body .tissues--sec5 {
-    background-image: url(img/ФОНЫ/576/фон\ 5\ 579.svg);
+    /* background-image: url(img/ФОНЫ/576/фон\ 5\ 579.svg); */
   }
   body .mechanics--sec6 {
-    background-image: url(img/ФОНЫ/576/фон\ 5\ 579.svg);
+    /* background-image: url(img/ФОНЫ/576/фон\ 5\ 579.svg); */
   }
   body .plastic--sec7 {
     background-image: url(img/ФОНЫ/576/фон\ 7\ 579.svg);
